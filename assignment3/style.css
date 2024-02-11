@@ -1,0 +1,40 @@
+a {
+    color: red;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:visited {
+    color: green;
+}
+
+.blackwhite {
+    color: white;
+    background-color: black;
+}
+
+.red {
+    color: red;
+}
+
+#orangegreen {
+    background-color: orange;
+    color: green;
+}
+
+.bluered {
+    background-color: blue;
+    color: red;
+}
+
+.purpleorange {
+    background-color: purple;
+    color: orange;
+}
+
+.yellowgreen {
+    color: yellowgreen;
+    background-color: gray;
+}
