@@ -2,13 +2,14 @@ a {
     color: red;
 }
 
+a:visited {
+    color: green;
+}
+
 a:hover {
     color: yellow;
 }
 
-a:visited {
-    color: green;
-}
 
 .blackwhite {
     color: white;
