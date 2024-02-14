@@ -1,0 +1,54 @@
+#bluebackground {
+    background-color: #99AAFF;
+}
+
+#whitetext {
+    color: white;
+}
+
+a {
+    color: green;
+}
+
+a:hover {
+    color: red;
+}
+
+a:link { 
+    text-decoration: none; 
+}
+
+a:hover { 
+  text-decoration: underline; 
+} 
+
+#bluetext {
+    color: blue;
+}
+
+#orangetext {
+    color: orange;
+}
+
+.yellowbackground {
+    background-color: yellow;
+}
+
+.redtext {
+    color: red;
+}
+
+#yellowgreen {
+    background-color: green;
+    color: yellow;
+}
+
+#lightgreen {
+    background-color: lightgreen;
+}
+
+#darkblue {
+    color: darkblue;
+}
+
+
