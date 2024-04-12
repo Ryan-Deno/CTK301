@@ -1,0 +1,50 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+h1 {
+  grid-column: span 4;
+  color: black;
+  font-family: "Italiana", sans-serif;
+  font-size: 64px;
+  padding-left: 40px;
+  padding-bottom: 0px;
+  margin-right: 0;
+}
+
+nav {
+  grid-column: span 8;
+}
+
+nav li {
+  font-family: "Italiana", sans-serif;
+  font-size: 15px;
+  display: inline-block;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#mainimg {
+  grid-column: span 12;
+  width: 1150px;
+  margin-left: 25px;
+  padding: 0px;
+  border-radius: 5px;
+}
+
