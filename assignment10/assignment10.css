@@ -15,20 +15,25 @@ body {
 
 h1 {
   grid-column: span 4;
-  color: black;
   font-family: "Italiana", sans-serif;
   font-size: 48px;
   padding-left: 40px;
   padding-bottom: 40px;
   margin-right: 0;
+  width: 400px;
 }
 
 h1 a {
-  color: black;
+  color: #696969;
+  background-image: url(GradientImage.png);
   text-decoration: none;
+  padding: 20px;
+  margin-left: 25px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
-
-
 
 nav {
   grid-column: span 8;
@@ -36,8 +41,9 @@ nav {
 
 nav li {
   font-family: "Italiana", sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   display: inline-block;
+  padding-top: 30px;
 }
 
 nav li a {
@@ -45,12 +51,20 @@ nav li a {
   color: black;
   font-weight: bold;
   text-transform: uppercase;
+  padding: 25px;
+  background-image: url(GradientImage.png);
+  border-radius: 50px;
+  padding: 15px;
+}
+
+main {
+  grid-column: span 12;
 }
 
 #mainimg {
-  grid-column: span 12;
-  width: 1150px;
+  max-width: 1150px;
   margin-left: 25px;
+  margin-top: 0px;
   padding: 0px;
   border-radius: 5px;
 }
