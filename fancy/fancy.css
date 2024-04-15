@@ -11,10 +11,20 @@ body {
 }
 
 #myCarousel {
-  margin-bottom: 24px;
+  margin-bottom: 48px;
 }
 
 #myCarousel .f-carousel__slide {
+  text-align: center;
+  padding: 24px;
+  background: #eee;
+}
+
+#secondCarousel {
+  margin-bottom: 24px;
+}
+
+#secondCarousel .f-carousel__slide {
   text-align: center;
   padding: 24px;
   background: #eee;
