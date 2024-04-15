@@ -33,6 +33,7 @@ h1 a {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  box-shadow: 3px 3px 3px #999;
 }
 
 nav {
@@ -55,6 +56,7 @@ nav li a {
   background-image: url(GradientImage.png);
   border-radius: 50px;
   padding: 15px;
+  box-shadow: 1px 1px 1px #999;
 }
 
 main {
@@ -69,3 +71,15 @@ main {
   border-radius: 5px;
 }
 
+footer {
+  grid-column: span 12;
+  background: #ede3da;
+  margin: 0px;
+}
+
+footer p {
+  margin: 38px;
+  font-size: 54px;
+  color: white;
+
+}
