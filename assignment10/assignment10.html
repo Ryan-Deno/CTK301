@@ -6,6 +6,11 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+	<link
+	rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"
+	/>
 	<link href="assignment10.css" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -22,9 +27,21 @@
 		</nav>
 
 		<main>
-			<img id="mainimg" src="UtilityPole_Alaska.jpg" alt="Power Line Alaksa">
+			<div id="heroCarousel" class="f-carousel">
+				<div class="f-carousel__slide"><img src="UtilityPole_Alaska.jpg"></div>
+				<div class="f-carousel__slide"><img src="Train_Mountains_Cliff_Cruise2022.jpg"></div>
+				<div class="f-carousel__slide"><img src="SkagwayPort_Graffiti_Cruise2022.jpg"></div>
+			</div>
 		</main>
 
 	</div>
+
+	<script>
+		const container = document.getElementById("heroCarousel");
+		const options = { infinite: true };
+		new Carousel(container, options);
+	</script>
+
+	
 </body>
 </html>
