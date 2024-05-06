@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ryan Deno Portfolio Home</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+	<link
+	rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"
+	>
+	<link
+        rel="stylesheet"
+    	href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.css"
+    >
+	<link href="portfolio.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div id="wrapper">
+		<h1><a href=portfoliohome.html>Ryan Deno</a></h1>
+		<nav>
+			<ul>
+				<li><a href="photography.html">Photography</a></li>
+				<li><a href="animation.html">Animation</a></li>
+				<li><a href="digitalpainting.html">Digital Painting</a></li>
+				<li><a href="about.html">About</a></li>
+			</ul>
+		</nav>
+
+		<main>
+			<div id="heroCarousel" class="f-carousel">
+				<div class="f-carousel__slide"><img src="UtilityPole_Alaska.jpg" alt="Utility Pole Alaska"></div>
+				<div class="f-carousel__slide"><img src="Train_Mountains_Cliff_Cruise2022.jpg" alt="Train in Mountains"></div>
+				<div class="f-carousel__slide"><img src="SkagwayPort_Graffiti_Cruise2022.jpg" alt="Skagway Port Graffiti"></div>
+				<div class="f-carousel__slide"><img src="untitled-11.jpg" alt="Glacier"></div>
+				<div class="f-carousel__slide"><img src="untitled-5.jpg" alt="Cruise Ship Side"></div>
+				<div class="f-carousel__slide"><img src="WillisTower_South.jpg" alt="Willis Tower South"></div>
+				<div class="f-carousel__slide"><img src="Photo1101_Deno_Portrait_Warrior-1.jpg" alt="Girl In Red Hood"></div>
+			</div>
+		</main>
+
+	</div>
+
+	<script>
+		const container = document.getElementById("heroCarousel");
+		const options = { infinite: true };
+		new Carousel(container, options);
+	</script>
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.umd.js"></script>
+    <script>
+      new Carousel(document.getElementById("heroCarousel"), {
+        Autoplay : {
+          timeout : 3000
+        }
+      }, {
+        Autoplay
+      });
+    </script>
+	
+</body>
+</html>
