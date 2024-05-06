@@ -1,0 +1,279 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+h1 {
+  grid-column: span 4;
+  font-family: "Italiana", sans-serif;
+  font-size: 48px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  margin-right: 0;
+  width: 400px;
+}
+
+h1 a {
+  color: #696969;
+  background-image: url(GradientImage.png);
+  text-decoration: none;
+  padding: 20px;
+  margin-left: 25px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 3px 3px 3px #999;
+}
+
+h2 {
+  color: black;
+  font-family: "Italiana", sans-serif;
+}
+
+nav {
+  grid-column: span 8;
+  padding-left: 100px;
+  padding-top: 20px;
+}
+
+nav li {
+  font-family: "Italiana", sans-serif;
+  font-size: 16px;
+  display: inline-block;
+  padding-top: 30px;
+  padding: 12px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-image: url(GradientImage.png);
+  border-radius: 50px;
+  padding: 15px;
+  box-shadow: 1px 1px 1px #999;
+  transition: background-color .5s, box-shadow .5s;
+}
+
+nav li a:hover {
+  text-shadow: 2px 2px 2px grey;
+  box-shadow: 5px 5px 5px black;
+}
+
+header {
+  grid-column: span 12;
+  font-family: "Italiana", sans-serif;
+  color: #696969;
+  font-weight: bold;
+  font-size: 68px;
+  text-align: center;
+  border-bottom: 2px black;
+}
+
+header p {
+  text-shadow: 1px 1px 1px darkgray;
+}
+
+main {
+  grid-column: span 12;
+}
+
+#mainimg {
+  max-width: 1150px;
+  margin-left: 25px;
+  margin-top: 0px;
+  padding: 0px;
+  border-radius: 5px;
+}
+
+#heroCarousel {
+  --f-carousel-spacing: 10px;
+  --f-carousel-slide-width: 100%;
+  --f-progress-color: white;
+}
+
+#heroCarousel img {
+  max-width: 1150px;
+  margin-left: 25px;
+  margin-top: 0px;
+  padding: 0px;
+  border-radius: 5px;  
+}
+
+.photography1 {
+  grid-column: span 6;
+  text-align: center;
+}
+
+#RegularCarousel1 img {
+  width: 100%;
+  border-radius: 5px;  
+}
+
+.photography2 {
+  grid-column: span 6;
+  text-align: center;
+}
+
+#RegularCarousel2 img {
+  width: 100%;
+  border-radius: 5px;  
+}
+
+.photography3 {
+  grid-column: span 6;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#RegularCarousel3 img {
+  width: 100%;
+  border-radius: 5px;  
+}
+
+.photography4 {
+  grid-column: span 6;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#RegularCarousel4 img {
+  width: 100%;
+  border-radius: 5px;  
+}
+
+.photography5 {
+  grid-column: span 12;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#RegularCarousel5 img {
+  width: 100%;
+  border-radius: 5px;  
+}
+
+iframe {
+  border: none;
+}
+
+.video1 {
+  grid-column: span 6;
+}
+
+.video2 {
+  grid-column: span 6;
+}
+
+.video3 {
+  grid-column: span 6;
+  margin-left: 50px;
+}
+
+.video4 {
+  grid-column: span 6;
+}
+
+.img1 {
+  grid-column: span 6;
+}
+
+.img1 img {
+  width: 100%;
+}
+
+.img2 {
+  grid-column: span 12;
+}
+
+.img2 img {
+  width: 100%;
+}
+
+.img3 {
+  grid-column: span 6;
+}
+
+.img3 img {
+  width: 100%;
+}
+
+.self {
+  grid-column: span 6;
+}
+
+.self img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.aboutme {
+  grid-column: span 6;
+}
+
+.aboutme p {
+  text-align: center;
+  font-size: 25px;
+  color: #ede3da;
+  padding: 54px;
+  background-color: #373535;
+}
+
+footer {
+  grid-column: span 12;
+  background: #ede3da;
+  margin: 0px;
+}
+
+footer p {
+  margin: 38px;
+  font-size: 54px;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: #373535;
+  padding-right: 20px;
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:visited{
+  text-decoration: none;
+  color: #373535;
+}
+
+.f-carousel {
+  --f-button-width: 38px;
+  --f-button-height: 38px;
+
+  --f-button-svg-width: 16px;
+  --f-button-svg-height: 16px;
+  --f-button-svg-stroke-width: 2.5;
+
+  --f-button-color: rgb(71 85 105);
+  --f-button-border-radius: 50%;
+  --f-button-shadow: 0 6px 12px -2px rgb(50 50 93 / 25%), 0 3px 7px -3px rgb(0 0
+          0 / 30%);
+
+  --f-button-bg: #fff;
+  --f-button-hover-bg: #f9f9f9;
+  --f-button-active-bg: #f0f0f0;
+}
+
